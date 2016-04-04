@@ -130,8 +130,11 @@ ModelImporter:
     4300016: Petal03
     4300018: Stem
     4300020: stem Base
-    7400000: Take 001
+    7400000: all
+    7400002: flower revive
+    7400004: flower idle
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Petal03
     13700002: Petal04
     13700004: Petal05
@@ -156,7 +159,421 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: all
+      takeName: Take 001
+      firstFrame: -1
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone01
+        weight: 1
+      - path: Bone01/Bone02
+        weight: 1
+      - path: Bone01/Bone02/Bone03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base/PBone02
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base/PBone02/PBone03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base01
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base01/PBone04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base01/PBone04/PBone05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base02
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base02/PBone06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base02/PBone06/PBone07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base03/PBone08
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base03/PBone08/PBone09
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base04/PBone10
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base04/PBone10/PBone11
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base05/PBone12
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base05/PBone12/PBone13
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base06/PBone14
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base06/PBone14/PBone15
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base07/PBone16
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base07/PBone16/PBone17
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/Pollen Ball
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10/Bone11
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10/Bone11/Bone12
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10/Bone11/Bone12/Bone13
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14/Bone15
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14/Bone15/Bone16
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14/Bone15/Bone16/Bone17
+        weight: 1
+      - path: Petal03
+        weight: 1
+      - path: Petal04
+        weight: 1
+      - path: Petal05
+        weight: 1
+      - path: Petal06
+        weight: 1
+      - path: Petal07
+        weight: 1
+      - path: Petal08
+        weight: 1
+      - path: Petal09
+        weight: 1
+      - path: Petal10
+        weight: 1
+      - path: Point01
+        weight: 1
+      - path: Point02
+        weight: 1
+      - path: Point02/IK Chain02
+        weight: 1
+      - path: Point03
+        weight: 1
+      - path: Point03/IK Chain01
+        weight: 1
+      - path: Stem
+        weight: 1
+      - path: stem Base
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: flower revive
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 124
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone01
+        weight: 1
+      - path: Bone01/Bone02
+        weight: 1
+      - path: Bone01/Bone02/Bone03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base/PBone02
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base/PBone02/PBone03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base01
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base01/PBone04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base01/PBone04/PBone05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base02
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base02/PBone06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base02/PBone06/PBone07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base03/PBone08
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base03/PBone08/PBone09
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base04/PBone10
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base04/PBone10/PBone11
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base05/PBone12
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base05/PBone12/PBone13
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base06/PBone14
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base06/PBone14/PBone15
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base07/PBone16
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base07/PBone16/PBone17
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/Pollen Ball
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10/Bone11
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10/Bone11/Bone12
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10/Bone11/Bone12/Bone13
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14/Bone15
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14/Bone15/Bone16
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14/Bone15/Bone16/Bone17
+        weight: 1
+      - path: Petal03
+        weight: 1
+      - path: Petal04
+        weight: 1
+      - path: Petal05
+        weight: 1
+      - path: Petal06
+        weight: 1
+      - path: Petal07
+        weight: 1
+      - path: Petal08
+        weight: 1
+      - path: Petal09
+        weight: 1
+      - path: Petal10
+        weight: 1
+      - path: Point01
+        weight: 1
+      - path: Point02
+        weight: 1
+      - path: Point02/IK Chain02
+        weight: 1
+      - path: Point03
+        weight: 1
+      - path: Point03/IK Chain01
+        weight: 1
+      - path: Stem
+        weight: 1
+      - path: stem Base
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: flower idle
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 200
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone01
+        weight: 1
+      - path: Bone01/Bone02
+        weight: 1
+      - path: Bone01/Bone02/Bone03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base/PBone02
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base/PBone02/PBone03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base01
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base01/PBone04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base01/PBone04/PBone05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base02
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base02/PBone06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base02/PBone06/PBone07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base03
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base03/PBone08
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base03/PBone08/PBone09
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base04
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base04/PBone10
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base04/PBone10/PBone11
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base05
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base05/PBone12
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base05/PBone12/PBone13
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base06
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base06/PBone14
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base06/PBone14/PBone15
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base07
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base07/PBone16
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/PBone01 Base07/PBone16/PBone17
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone04/Bone05/Bone06/Bone07/Pollen Ball
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10/Bone11
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10/Bone11/Bone12
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone10/Bone11/Bone12/Bone13
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14/Bone15
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14/Bone15/Bone16
+        weight: 1
+      - path: Bone01/Bone02/Bone03/Bone14/Bone15/Bone16/Bone17
+        weight: 1
+      - path: Petal03
+        weight: 1
+      - path: Petal04
+        weight: 1
+      - path: Petal05
+        weight: 1
+      - path: Petal06
+        weight: 1
+      - path: Petal07
+        weight: 1
+      - path: Petal08
+        weight: 1
+      - path: Petal09
+        weight: 1
+      - path: Petal10
+        weight: 1
+      - path: Point01
+        weight: 1
+      - path: Point02
+        weight: 1
+      - path: Point02/IK Chain02
+        weight: 1
+      - path: Point03
+        weight: 1
+      - path: Point03/IK Chain01
+        weight: 1
+      - path: Stem
+        weight: 1
+      - path: stem Base
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -192,6 +609,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   additionalBone: 0
   userData: 
